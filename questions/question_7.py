@@ -75,3 +75,6 @@ def exercicio_7():
         print(f"Último elemento (back): {deque.last()}")
     else:
         print("Deque está vazio")
+
+if __name__ == "__main__":
+    exercicio_7()

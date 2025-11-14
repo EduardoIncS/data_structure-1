@@ -38,3 +38,6 @@ def exercicio_2():
         print(f"Elemento no topo: {pilha.top()}")
     else:
         print("Pilha está vazia")
+
+if __name__ == "__main__":
+    exercicio_2()

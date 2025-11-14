@@ -48,3 +48,6 @@ def exercicio_3():
     
     print(f"\n--- Demonstração adicional ---")
     print("Testando com pilha S contendo: [A, B, C] (onde C está no topo)")
+
+if __name__ == "__main__":
+    exercicio_3()

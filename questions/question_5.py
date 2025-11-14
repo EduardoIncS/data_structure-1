@@ -57,3 +57,6 @@ def exercicio_5():
         # Testando a função principal
         lista_invertida = inverter_lista(lista_copia)
         print(f"  Resultado da função: {lista_invertida}")
+
+if __name__ == "__main__":
+    exercicio_5()

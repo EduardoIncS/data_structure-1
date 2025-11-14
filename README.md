@@ -17,7 +17,7 @@ python main.py
 ### Executar uma questão específica:
 
 ```bash
-python question_X.py  # onde X é o número da questão (2-15)
+python -m questions.question_X  # onde X é o número da questão (2-9)
 ```
 
 ## 🏗️ Estruturas de Dados Implementadas
@@ -82,13 +82,16 @@ Implementação de deque (double-ended queue) usando array circular.
 ├── stack.py             # Implementação da pilha
 ├── queue.py             # Implementação da fila
 ├── deque.py             # Implementação do deque
-├── question_2.py        # Exercício 2: Operações de pilha
-├── question_3.py        # Exercício 3: Função transfer entre pilhas
-├── question_4.py        # Exercício 4: Remoção recursiva de pilha
-├── question_5.py        # Exercício 5: Inversão de lista com pilha
-├── question_6.py        # Exercício 6: Operações de fila
-├── question_7.py        # Exercício 7: Operações de deque
-├── question_8.py        # Exercício 8: Verificação de parênteses
+├── questions/           # Pasta com todos os exercícios
+│   ├── __init__.py      # Arquivo de inicialização do pacote
+│   ├── question_2.py    # Exercício 2: Operações de pilha
+│   ├── question_3.py    # Exercício 3: Função transfer entre pilhas
+│   ├── question_4.py    # Exercício 4: Remoção recursiva de pilha
+│   ├── question_5.py    # Exercício 5: Inversão de lista com pilha
+│   ├── question_6.py    # Exercício 6: Operações de fila
+│   ├── question_7.py    # Exercício 7: Operações de deque
+│   ├── question_8.py    # Exercício 8: Verificação de parênteses
+│   └── question_9.py    # Exercício 9: Conversão de expressões
 └── README.md            # Este arquivo
 ```
 

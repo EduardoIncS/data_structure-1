@@ -72,3 +72,6 @@ def exercicio_8():
     print("3. Se tentar desempilhar com pilha vazia: expressão mal formada")
     print("4. No final, se pilha estiver vazia: expressão bem formada")
     print("5. Se sobrar '(' na pilha: expressão mal formada")
+
+if __name__ == "__main__":
+    exercicio_8()

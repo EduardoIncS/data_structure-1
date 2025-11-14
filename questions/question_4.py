@@ -33,3 +33,6 @@ def exercicio_4():
     print(f"\nPilha após remoção: {pilha._data}")
     print(f"Tamanho: {len(pilha)}")
     print(f"Pilha está vazia: {pilha.is_empty()}")
+
+if __name__ == "__main__":
+    exercicio_4()

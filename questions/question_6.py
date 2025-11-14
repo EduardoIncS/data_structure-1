@@ -54,3 +54,6 @@ def exercicio_6():
         print(f"Primeiro elemento (front): {fila.first()}")
     else:
         print("Fila está vazia")
+
+if __name__ == "__main__":
+    exercicio_6()
