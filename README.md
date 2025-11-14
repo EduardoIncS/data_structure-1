@@ -110,6 +110,6 @@ Implementação de deque (double-ended queue) usando array circular.
 ---
 
 **Autor:** Eduardo Inácio  
-**Matricula:** 1612611
+**Matricula:** 1612611  
 **Disciplina:** Estruturas de Dados  
 **Instituição:** Universidade Estadual do Ceará
