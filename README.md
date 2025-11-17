@@ -17,7 +17,7 @@ python main.py
 ### Executar uma questão específica:
 
 ```bash
-python -m questions.question_X  # onde X é o número da questão (2-11)
+python -m questions.question_X  # onde X é o número da questão (2-11, 13-14)
 ```
 
 ## 🏗️ Estruturas de Dados Implementadas
@@ -93,7 +93,10 @@ Implementação de deque (double-ended queue) usando array circular.
 │   ├── question_8.py    # Exercício 8: Verificação de parênteses
 │   ├── question_9.py    # Exercício 9: Conversão de expressões
 │   ├── question_10.py   # Exercício 10: Calculadora aritmética
-│   └── question_11.py   # Exercício 11: Teste de palíndromo
+│   ├── question_11.py   # Exercício 11: Teste de palíndromo
+│   ├── question_13.py   # Exercício 13: Penúltimo nó em lista encadeada
+│   ├── question_14.py   # Exercício 14: Concatenar listas encadeadas
+│   └── question_15.py   # Exercício 15: Contagem recursiva de nós
 └── README.md            # Este arquivo
 ```
 
@@ -106,6 +109,7 @@ Implementação de deque (double-ended queue) usando array circular.
 - **Balanceamento de parênteses** com pilhas
 - **Inversão de sequências** usando pilhas
 - **Transferência entre estruturas**
+- **Algoritmos recursivos** para listas encadeadas
 
 ## 🛠️ Requisitos
 
