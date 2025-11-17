@@ -7,6 +7,7 @@ from questions.question_7 import exercicio_7
 from questions.question_8 import exercicio_8
 from questions.question_9 import exercicio_9
 from questions.question_10 import exercicio_10
+from questions.question_11 import exercicio_11
 
 if __name__ == "__main__":
     exercicio_2()
@@ -26,3 +27,5 @@ if __name__ == "__main__":
     exercicio_9()
     print("\n" + "="*50 + "\n")
     exercicio_10()
+    print("\n" + "="*50 + "\n")
+    exercicio_11()
