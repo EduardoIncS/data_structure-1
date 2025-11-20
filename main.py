@@ -11,6 +11,11 @@ from questions.question_11 import exercicio_11
 from questions.question_13 import exercicio_13
 from questions.question_14 import exercicio_14
 from questions.question_15 import exercicio_15
+from questions.question_16 import exercicio_16
+from questions.question_17 import exercicio_17
+from questions.question_18 import exercicio_18
+from questions.question_19 import exercicio_19
+from questions.question_20 import exercicio_20
 
 if __name__ == "__main__":
     exercicio_2()
@@ -38,3 +43,13 @@ if __name__ == "__main__":
     exercicio_14()
     print("\n" + "="*50 + "\n")
     exercicio_15()
+    print("\n" + "="*50 + "\n")
+    exercicio_16()
+    print("\n" + "="*50 + "\n")
+    exercicio_17()
+    print("\n" + "="*50 + "\n")
+    exercicio_18()
+    print("\n" + "="*50 + "\n")
+    exercicio_19()
+    print("\n" + "="*50 + "\n")
+    exercicio_20()

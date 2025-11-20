@@ -96,7 +96,12 @@ Implementação de deque (double-ended queue) usando array circular.
 │   ├── question_11.py   # Exercício 11: Teste de palíndromo
 │   ├── question_13.py   # Exercício 13: Penúltimo nó em lista encadeada
 │   ├── question_14.py   # Exercício 14: Concatenar listas encadeadas
-│   └── question_15.py   # Exercício 15: Contagem recursiva de nós
+│   ├── question_15.py   # Exercício 15: Contagem recursiva de nós
+│   ├── question_16.py   # Exercício 16: Contagem de nós em lista circular
+│   ├── question_17.py   # Exercício 17: Reversão recursiva de lista
+│   ├── question_18.py   # Exercício 18: Separar positivos e negativos
+│   ├── question_19.py   # Exercício 19: Remover duplicados em lista dupla
+│   └── question_20.py   # Exercício 20: Método reverse para lista dupla
 └── README.md            # Este arquivo
 ```
 
@@ -110,6 +115,11 @@ Implementação de deque (double-ended queue) usando array circular.
 - **Inversão de sequências** usando pilhas
 - **Transferência entre estruturas**
 - **Algoritmos recursivos** para listas encadeadas
+- **Listas circularmente encadeadas** e navegação circular
+- **Reversão de listas** com algoritmos recursivos otimizados
+- **Filtragem e separação** de elementos em listas encadeadas
+- **Remoção de duplicados** em listas duplamente encadeadas
+- **Modificação de estruturas** com métodos de inversão in-place
 
 ## 🛠️ Requisitos
 
