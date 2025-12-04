@@ -1,10 +1,15 @@
 # Estruturas de Dados 1 - Atividades Práticas
 
-Este repositório contém as implementações e exercícios práticos da disciplina de **Estruturas de Dados**, focando em estruturas lineares fundamentais: **Stack (Pilha)**, **Queue (Fila)** e **Deque (Fila Dupla)**.
+Este repositório contém as implementações e exercícios práticos da disciplina de **Estruturas de Dados**, abordando desde estruturas lineares até estruturas hierárquicas.
 
 ## 📚 Sobre o Projeto
 
-Atividade acadêmica que implementa e demonstra o uso de estruturas de dados lineares através de exercícios práticos. Cada questão está organizada em arquivos separados com implementações específicas e testes demonstrativos.
+Atividade acadêmica que implementa e demonstra o uso de diversas estruturas de dados através de exercícios práticos organizados em listas de implementação. Cada questão está organizada em arquivos separados com implementações específicas e testes demonstrativos.
+
+### 📋 Listas de Implementação
+
+- **Lista 1**: Estruturas lineares - Stack (Pilha), Queue (Fila), Deque (Fila Dupla) e estruturas encadeadas
+- **Lista 2**: Estruturas hierárquicas - Árvores Binárias e travessias
 
 ## 🚀 Como Executar
 
@@ -17,12 +22,18 @@ python main.py
 ### Executar uma questão específica:
 
 ```bash
-python -m questions.question_X  # onde X é o número da questão (2-11, 13-14)
+# Lista 1 (Estruturas Lineares)
+python -m questions.question1_X  # onde X é o número da questão (2-20)
+
+# Lista 2 (Árvores)
+python -m questions.question2_X  # onde X é o número da questão
 ```
 
 ## 🏗️ Estruturas de Dados Implementadas
 
-### 📚 **ArrayStack** (`stack.py`)
+### 📚 Lista 1: Estruturas Lineares
+
+#### **ArrayStack** (`stack.py`)
 
 Implementação de pilha usando array dinâmico.
 
@@ -38,7 +49,7 @@ Implementação de pilha usando array dinâmico.
   - `is_empty()` - verifica se está vazia
   - `__len__()` - retorna tamanho
 
-### 🚶 **ArrayQueue** (`queue.py`)
+#### **ArrayQueue** (`queue.py`)
 
 Implementação de fila usando array circular.
 
@@ -55,7 +66,7 @@ Implementação de fila usando array circular.
   - `is_empty()` - verifica se está vazia
   - `__len__()` - retorna tamanho
 
-### ↔️ **ArrayDeque** (`deque.py`)
+#### **ArrayDeque** (`deque.py`)
 
 Implementação de deque (double-ended queue) usando array circular.
 
@@ -75,37 +86,101 @@ Implementação de deque (double-ended queue) usando array circular.
   - `is_empty()` - verifica se está vazio
   - `__len__()` - retorna tamanho
 
+#### **Estruturas Encadeadas**
+
+- `linkedStack.py` - Pilha encadeada
+- `linkedQueue.py` - Fila encadeada
+- `linkedDeque.py` - Deque encadeado
+- `circularQueue.py` - Fila circular encadeada
+- `doublyLinkedBase.py` - Base para listas duplamente encadeadas
+
+### 🌳 Lista 2: Estruturas Hierárquicas
+
+#### **LinkedBinaryTree** (`linkedBinaryTree.py`)
+
+Implementação de árvore binária usando nós encadeados.
+
+**Características:**
+
+- **Nós ligados por ponteiros**
+- **Operações de inserção**: `_add_root()`, `_add_left()`, `_add_right()`
+- **Travessias implementadas**: `preorder()`, `inorder()`, `postorder()`
+- **Métodos de manipulação**: `replace()`, `_delete()`, `_attach()`
+
+#### **ArrayBinaryTree** (`arrayBinaryTree.py`)
+
+Implementação de árvore binária usando array (Seção 8.3.2).
+
+**Características:**
+
+- **Representação baseada em array**
+- **Fórmulas de índice**: filho esquerdo = `2i+1`, filho direito = `2i+2`
+- **Redimensionamento automático**
+- **Mesmas operações da LinkedBinaryTree**
+
+#### **BinaryTree** (`binaryTree.py`)
+
+Classe abstrata base para árvores binárias.
+
+**Métodos principais:**
+
+- `left(p)`, `right(p)` - navegação
+- `sibling(p)` - retorna irmão do nó
+- `children(p)` - itera sobre filhos
+- `inorder()` - travessia em ordem
+
 ## 📁 Estrutura do Projeto
 
 ```
-├── main.py              # Executor principal de todas as questões
-├── stack.py             # Implementação da pilha
-├── queue.py             # Implementação da fila
-├── deque.py             # Implementação do deque
-├── questions/           # Pasta com todos os exercícios
-│   ├── __init__.py      # Arquivo de inicialização do pacote
-│   ├── question_2.py    # Exercício 2: Operações de pilha
-│   ├── question_3.py    # Exercício 3: Função transfer entre pilhas
-│   ├── question_4.py    # Exercício 4: Remoção recursiva de pilha
-│   ├── question_5.py    # Exercício 5: Inversão de lista com pilha
-│   ├── question_6.py    # Exercício 6: Operações de fila
-│   ├── question_7.py    # Exercício 7: Operações de deque
-│   ├── question_8.py    # Exercício 8: Verificação de parênteses
-│   ├── question_9.py    # Exercício 9: Conversão de expressões
-│   ├── question_10.py   # Exercício 10: Calculadora aritmética
-│   ├── question_11.py   # Exercício 11: Teste de palíndromo
-│   ├── question_13.py   # Exercício 13: Penúltimo nó em lista encadeada
-│   ├── question_14.py   # Exercício 14: Concatenar listas encadeadas
-│   ├── question_15.py   # Exercício 15: Contagem recursiva de nós
-│   ├── question_16.py   # Exercício 16: Contagem de nós em lista circular
-│   ├── question_17.py   # Exercício 17: Reversão recursiva de lista
-│   ├── question_18.py   # Exercício 18: Separar positivos e negativos
-│   ├── question_19.py   # Exercício 19: Remover duplicados em lista dupla
-│   └── question_20.py   # Exercício 20: Método reverse para lista dupla
-└── README.md            # Este arquivo
+├── main.py                    # Executor principal de todas as questões
+├── README.md                  # Este arquivo
+│
+├── # Lista 1: Estruturas Lineares
+├── stack.py                   # Pilha com array
+├── queue.py                   # Fila com array circular
+├── deque.py                   # Deque com array circular
+├── linkedStack.py             # Pilha encadeada
+├── linkedQueue.py             # Fila encadeada
+├── linkedDeque.py             # Deque encadeado
+├── circularQueue.py           # Fila circular encadeada
+├── doublyLinkedBase.py        # Base para listas duplamente encadeadas
+│
+├── # Lista 2: Árvores
+├── Tree.py                    # Classe abstrata base para árvores
+├── binaryTree.py              # Classe abstrata para árvores binárias
+├── linkedBinaryTree.py        # Árvore binária com nós encadeados
+├── arrayBinaryTree.py         # Árvore binária com array
+│
+└── questions/                 # Pasta com todos os exercícios
+    ├── __init__.py
+    │
+    ├── # Lista 1: Estruturas Lineares
+    ├── question1_2.py         # Operações de pilha
+    ├── question1_3.py         # Função transfer entre pilhas
+    ├── question1_4.py         # Remoção recursiva de pilha
+    ├── question1_5.py         # Inversão de lista com pilha
+    ├── question1_6.py         # Operações de fila
+    ├── question1_7.py         # Operações de deque
+    ├── question1_8.py         # Verificação de parênteses
+    ├── question1_9.py         # Conversão de expressões
+    ├── question1_10.py        # Calculadora aritmética
+    ├── question1_11.py        # Teste de palíndromo
+    ├── question1_13.py        # Penúltimo nó em lista encadeada
+    ├── question1_14.py        # Concatenar listas encadeadas
+    ├── question1_15.py        # Contagem recursiva de nós
+    ├── question1_16.py        # Contagem de nós em lista circular
+    ├── question1_17.py        # Reversão recursiva de lista
+    ├── question1_18.py        # Separar positivos e negativos
+    ├── question1_19.py        # Remover duplicados em lista dupla
+    ├── question1_20.py        # Método reverse para lista dupla
+    │
+    └── # Lista 2: Árvores
+        └── question2_4.py     # Travessias em árvores binárias
 ```
 
 ## 🎯 Conceitos Demonstrados
+
+### Lista 1: Estruturas Lineares
 
 - **Implementação de TADs** (Tipos Abstratos de Dados)
 - **Arrays circulares** e redimensionamento dinâmico
@@ -120,6 +195,14 @@ Implementação de deque (double-ended queue) usando array circular.
 - **Filtragem e separação** de elementos em listas encadeadas
 - **Remoção de duplicados** em listas duplamente encadeadas
 - **Modificação de estruturas** com métodos de inversão in-place
+
+### Lista 2: Árvores
+
+- **Árvores binárias** com representação encadeada e por array
+- **Travessias de árvores**: preorder, inorder, postorder
+- **Operações fundamentais** em árvores binárias
+- **Diferentes representações** da mesma estrutura de dados
+- **Relação entre índices** em representação por array
 
 ## 🛠️ Requisitos
 
