@@ -16,8 +16,10 @@ from questions.question1_17 import exercicio_17
 from questions.question1_18 import exercicio_18
 from questions.question1_19 import exercicio_19
 from questions.question1_20 import exercicio_20
+from questions.question2_4 import exercicio_4
 
 if __name__ == "__main__":
+    print("\n" + "LISTA DE IMPLEMENTAÇÃO 1" + "\n")
     exercicio_2()
     print("\n" + "="*50 + "\n")
     exercicio_3()
@@ -53,3 +55,7 @@ if __name__ == "__main__":
     exercicio_19()
     print("\n" + "="*50 + "\n")
     exercicio_20()
+    print("\n" + "="*50 + "\n")
+    print("LISTA DE IMPLEMENTAÇÃO 2" + "\n")
+    exercicio_4()
+    print("\n" + "="*50 + "\n")
