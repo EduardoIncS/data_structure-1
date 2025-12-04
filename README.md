@@ -129,6 +129,14 @@ Classe abstrata base para árvores binárias.
 - `children(p)` - itera sobre filhos
 - `inorder()` - travessia em ordem
 
+### 📝 Exercícios da Lista 2
+
+**Exercício 4** - Verificar se duas árvores binárias são idênticas (mesma estrutura e conteúdo)  
+**Exercício 5** - Validar se uma árvore é uma árvore soma  
+**Exercício 6** - Imprimir todos os caminhos da raiz até cada folha  
+**Exercício 7** - Encontrar e listar todos os ancestrais de um nó específico  
+**Exercício 8** - Converter árvore para árvore soma (substituir valores pela soma das subárvores)
+
 ## 📁 Estrutura do Projeto
 
 ```
@@ -175,7 +183,11 @@ Classe abstrata base para árvores binárias.
     ├── question1_20.py        # Método reverse para lista dupla
     │
     └── # Lista 2: Árvores
-        └── question2_4.py     # Travessias em árvores binárias
+        ├── question2_4.py     # Verificação de árvores idênticas
+        ├── question2_5.py     # Verificação de árvore soma
+        ├── question2_6.py     # Caminhos da raiz até as folhas
+        ├── question2_7.py     # Encontrar ancestrais de um nó
+        └── question2_8.py     # Conversão para árvore soma
 ```
 
 ## 🎯 Conceitos Demonstrados
@@ -203,6 +215,11 @@ Classe abstrata base para árvores binárias.
 - **Operações fundamentais** em árvores binárias
 - **Diferentes representações** da mesma estrutura de dados
 - **Relação entre índices** em representação por array
+- **Comparação de árvores**: verificação de estruturas idênticas
+- **Árvores soma**: validação e conversão de árvores
+- **Algoritmos de busca**: caminhos e ancestrais em árvores
+- **Manipulação de árvores**: transformação de valores baseada em subárvores
+- **Algoritmos recursivos** para processamento de árvores
 
 ## 🛠️ Requisitos
 

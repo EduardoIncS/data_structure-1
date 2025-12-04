@@ -1,61 +1,73 @@
-from questions.question1_2 import exercicio_2
-from questions.question1_3 import exercicio_3
-from questions.question1_4 import exercicio_4
-from questions.question1_5 import exercicio_5
-from questions.question1_6 import exercicio_6
-from questions.question1_7 import exercicio_7
-from questions.question1_8 import exercicio_8
-from questions.question1_9 import exercicio_9
-from questions.question1_10 import exercicio_10
-from questions.question1_11 import exercicio_11
-from questions.question1_13 import exercicio_13
-from questions.question1_14 import exercicio_14
-from questions.question1_15 import exercicio_15
-from questions.question1_16 import exercicio_16
-from questions.question1_17 import exercicio_17
-from questions.question1_18 import exercicio_18
-from questions.question1_19 import exercicio_19
-from questions.question1_20 import exercicio_20
-from questions.question2_4 import exercicio_4
+from questions.question1_2 import exercicio_2 as exercicio_1_2
+from questions.question1_3 import exercicio_3 as exercicio_1_3
+from questions.question1_4 import exercicio_4 as exercicio_1_4
+from questions.question1_5 import exercicio_5 as exercicio_1_5
+from questions.question1_6 import exercicio_6 as exercicio_1_6
+from questions.question1_7 import exercicio_7 as exercicio_1_7
+from questions.question1_8 import exercicio_8 as exercicio_1_8
+from questions.question1_9 import exercicio_9 as exercicio_1_9
+from questions.question1_10 import exercicio_10 as exercicio_1_10
+from questions.question1_11 import exercicio_11 as exercicio_1_11
+from questions.question1_13 import exercicio_13 as exercicio_1_13
+from questions.question1_14 import exercicio_14 as exercicio_1_14
+from questions.question1_15 import exercicio_15 as exercicio_1_15
+from questions.question1_16 import exercicio_16 as exercicio_1_16
+from questions.question1_17 import exercicio_17 as exercicio_1_17
+from questions.question1_18 import exercicio_18 as exercicio_1_18
+from questions.question1_19 import exercicio_19 as exercicio_1_19
+from questions.question1_20 import exercicio_20 as exercicio_1_20
+from questions.question2_4 import exercicio_4 as exercicio_2_4
+from questions.question2_5 import exercicio_5 as exercicio_2_5
+from questions.question2_6 import exercicio_6 as exercicio_2_6
+from questions.question2_7 import exercicio_7 as exercicio_2_7
+from questions.question2_8 import exercicio_8 as exercicio_2_8
 
 if __name__ == "__main__":
     print("\n" + "LISTA DE IMPLEMENTAÇÃO 1" + "\n")
-    exercicio_2()
+    exercicio_1_2()
     print("\n" + "="*50 + "\n")
-    exercicio_3()
+    exercicio_1_3()
     print("\n" + "="*50 + "\n")
-    exercicio_4()
+    exercicio_1_4()
     print("\n" + "="*50 + "\n")
-    exercicio_5()
+    exercicio_1_5()
     print("\n" + "="*50 + "\n")
-    exercicio_6()
+    exercicio_1_6()
     print("\n" + "="*50 + "\n")
-    exercicio_7()
+    exercicio_1_7()
     print("\n" + "="*50 + "\n")
-    exercicio_8()
+    exercicio_1_8()
     print("\n" + "="*50 + "\n")
-    exercicio_9()
+    exercicio_1_9()
     print("\n" + "="*50 + "\n")
-    exercicio_10()
+    exercicio_1_10()
     print("\n" + "="*50 + "\n")
-    exercicio_11()
+    exercicio_1_11()
     print("\n" + "="*50 + "\n")
-    exercicio_13()
+    exercicio_1_13()
     print("\n" + "="*50 + "\n")
-    exercicio_14()
+    exercicio_1_14()
     print("\n" + "="*50 + "\n")
-    exercicio_15()
+    exercicio_1_15()
     print("\n" + "="*50 + "\n")
-    exercicio_16()
+    exercicio_1_16()
     print("\n" + "="*50 + "\n")
-    exercicio_17()
+    exercicio_1_17()
     print("\n" + "="*50 + "\n")
-    exercicio_18()
+    exercicio_1_18()
     print("\n" + "="*50 + "\n")
-    exercicio_19()
+    exercicio_1_19()
     print("\n" + "="*50 + "\n")
-    exercicio_20()
+    exercicio_1_20()
     print("\n" + "="*50 + "\n")
     print("LISTA DE IMPLEMENTAÇÃO 2" + "\n")
-    exercicio_4()
+    exercicio_2_4()
+    print("\n" + "="*50 + "\n")
+    exercicio_2_5()
+    print("\n" + "="*50 + "\n")
+    exercicio_2_6()
+    print("\n" + "="*50 + "\n")
+    exercicio_2_7()
+    print("\n" + "="*50 + "\n")
+    exercicio_2_8()
     print("\n" + "="*50 + "\n")
