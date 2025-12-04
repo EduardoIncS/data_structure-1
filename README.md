@@ -94,6 +94,27 @@ Implementação de deque (double-ended queue) usando array circular.
 - `circularQueue.py` - Fila circular encadeada
 - `doublyLinkedBase.py` - Base para listas duplamente encadeadas
 
+### 📝 Exercícios da Lista 1
+
+**Exercício 2** - Operações básicas com pilha (push, pop, top)  
+**Exercício 3** - Função para transferir elementos entre duas pilhas  
+**Exercício 4** - Remoção recursiva de todos os elementos de uma pilha  
+**Exercício 5** - Inversão de lista usando pilha  
+**Exercício 6** - Operações básicas com fila (enqueue, dequeue, first)  
+**Exercício 7** - Operações básicas com deque (add_first, add_last, delete_first, delete_last)  
+**Exercício 8** - Verificação de balanceamento de parênteses usando pilha  
+**Exercício 9** - Conversão de expressões infixas para pós-fixas  
+**Exercício 10** - Calculadora de expressões aritméticas  
+**Exercício 11** - Verificação de palíndromo usando deque  
+**Exercício 13** - Encontrar o penúltimo nó em lista encadeada  
+**Exercício 14** - Concatenar duas listas encadeadas  
+**Exercício 15** - Contagem recursiva de nós em lista encadeada  
+**Exercício 16** - Contagem de nós em lista circular  
+**Exercício 17** - Reversão recursiva de lista encadeada  
+**Exercício 18** - Separar elementos positivos e negativos em lista  
+**Exercício 19** - Remover duplicados em lista duplamente encadeada  
+**Exercício 20** - Implementar método reverse para lista duplamente encadeada
+
 ### 🌳 Lista 2: Estruturas Hierárquicas
 
 #### **LinkedBinaryTree** (`linkedBinaryTree.py`)
