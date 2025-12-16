@@ -11,6 +11,7 @@ Atividade acadêmica que implementa e demonstra o uso de diversas estruturas de 
 - **Lista 1**: Estruturas Lineares - Stack (Pilha), Queue (Fila), Deque (Fila Dupla) e Listas Encadeadas
 - **Lista 2**: Árvores Binárias - LinkedBinaryTree, ArrayBinaryTree e Algoritmos de Travessia
 - **Lista 3**: Árvores de Busca Balanceadas - BST, AVL e Árvores Rubro-Negras
+- **Lista 4**: Algoritmos de Ordenação - Insertion, Selection, Bubble, Shell, Merge, Quick, Heap e Counting Sort
 
 ## 🚀 Como Executar
 
@@ -20,6 +21,7 @@ Atividade acadêmica que implementa e demonstra o uso de diversas estruturas de 
 python main.py    # Executa todos os exercícios da Lista 1
 python main2.py   # Executa todos os exercícios da Lista 2
 python main3.py   # Executa todos os exercícios da Lista 3
+python main4.py   # Executa todos os exercícios da Lista 4
 ```
 
 ### Executar uma questão específica:
@@ -33,6 +35,9 @@ python -m questions.question2_X  # onde X é o número da questão (4-8)
 
 # Lista 3 (Árvores de Busca)
 python -m questions.question3_X  # onde X é o número da questão (4-7)
+
+# Lista 4 (Algoritmos de Ordenação)
+python -m questions.question4_X  # onde X é o número da questão
 ```
 
 ## 🏗️ Estruturas de Dados Implementadas
@@ -215,12 +220,51 @@ Classes base para implementação de mapas:
 **Exercício 6** - Remoção em AVL: remover chave 62 da árvore AVL da Figura 11.14b e mostrar rebalanceamento  
 **Exercício 7** - Inserção em Rubro-Negra: inserir sequência [5, 16, 22, 45, 2, 10, 18, 30, 50, 12, 1] e mostrar cores e estrutura
 
+### 🔢 Lista 4: Algoritmos de Ordenação
+
+#### **Algoritmos Implementados**
+
+**Algoritmos O(n²) - Quadráticos:**
+
+- **Insertion Sort**: Ordenação por inserção, eficiente para listas pequenas ou quase ordenadas
+- **Selection Sort**: Ordenação por seleção, sempre faz n² comparações
+- **Bubble Sort**: Ordenação por bolha, troca elementos adjacentes
+
+**Algoritmos O(n log n) - Logarítmicos:**
+
+- **Shell Sort**: Versão otimizada do Insertion Sort com gaps
+- **Merge Sort**: Ordenação por intercalação, divide e conquista
+- **Quick Sort**: Ordenação rápida, usa pivô para particionamento
+- **Heap Sort**: Ordenação por heap, usa estrutura de heap binária
+
+**Algoritmos O(n + k) - Lineares:**
+
+- **Counting Sort**: Ordenação por contagem, eficiente para inteiros em range limitado
+
+#### **Características da Implementação**
+
+Todos os algoritmos foram modificados para contar:
+
+- **Comparações**: Número de testes realizados durante a ordenação
+- **Trocas**: Número de movimentações de elementos
+- **Análise comparativa**: Média de operações em múltiplas listas de teste
+
+### 📝 Exercícios da Lista 4
+
+**Exercício 1** - Implementação de 8 algoritmos de ordenação com contagem de operações:
+
+- Testa cada algoritmo em 10 listas diferentes
+- Exibe lista ordenada, comparações e trocas para cada execução
+- Apresenta sumário comparativo com médias de operações
+- Análise de desempenho entre algoritmos O(n²) e O(n log n)
+
 ## 📁 Estrutura do Projeto
 
 ```
 ├── main.py                    # Executor da Lista 1 (Estruturas Lineares)
 ├── main2.py                   # Executor da Lista 2 (Árvores Binárias)
 ├── main3.py                   # Executor da Lista 3 (Árvores de Busca)
+├── main4.py                   # Executor da Lista 4 (Algoritmos de Ordenação)
 ├── README.md                  # Este arquivo
 │
 ├── # Lista 1: Estruturas Lineares
@@ -276,11 +320,14 @@ Classes base para implementação de mapas:
     ├── question2_7.py         # Encontrar ancestrais de um nó
     ├── question2_8.py         # Conversão para árvore soma
     │
-    └── # Lista 3: Árvores de Busca (4 exercícios)
-        ├── question3_4.py     # Inserção em BST
-        ├── question3_5.py     # Inserção em AVL
-        ├── question3_6.py     # Remoção em AVL
-        └── question3_7.py     # Inserção em Rubro-Negra
+    ├── # Lista 3: Árvores de Busca (4 exercícios)
+    ├── question3_4.py         # Inserção em BST
+    ├── question3_5.py         # Inserção em AVL
+    ├── question3_6.py         # Remoção em AVL
+    ├── question3_7.py         # Inserção em Rubro-Negra
+    │
+    └── # Lista 4: Algoritmos de Ordenação (1 exercício)
+        └── question4_1.py     # 8 algoritmos com análise de performance
 ```
 
 ## 🎯 Conceitos Demonstrados
@@ -326,6 +373,19 @@ Classes base para implementação de mapas:
 - **Mapeamento chave-valor** em estruturas de árvore
 - **Visualização de estruturas**: representação hierárquica e cores
 - **Comparação de desempenho** entre diferentes tipos de árvores
+
+### Lista 4: Algoritmos de Ordenação
+
+- **Análise de complexidade**: O(n²), O(n log n) e O(n + k)
+- **Algoritmos quadráticos**: Insertion, Selection e Bubble Sort
+- **Algoritmos logarítmicos**: Shell, Merge, Quick e Heap Sort
+- **Algoritmos lineares**: Counting Sort para ranges limitados
+- **Divide and Conquer**: Merge Sort e Quick Sort
+- **Estruturas auxiliares**: Heap no Heap Sort
+- **Otimizações**: gaps no Shell Sort, pivô no Quick Sort
+- **Análise prática**: contagem de comparações e trocas
+- **Comparação de performance**: estudo empírico entre algoritmos
+- **Estabilidade**: comportamento com elementos iguais
 
 ## 🛠️ Requisitos
 
