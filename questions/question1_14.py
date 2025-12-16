@@ -52,7 +52,11 @@ def exercicio_14():
     """
     Implementa um algoritmo para concatenar duas listas encadeadas simples L e M.
     """
-    print("=== Exercício 14 - Concatenar Duas Listas Encadeadas ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 14 - LISTA 1")
+    print("="*70)
+    print("Concatenar Duas Listas Encadeadas")
+    print("="*70)
     
     casos_teste = [
         ([1, 2, 3], [4, 5, 6]),

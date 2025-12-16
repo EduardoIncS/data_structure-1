@@ -58,7 +58,11 @@ def exercicio_10():
     """
     Implementa uma calculadora aritmética de inteiros usando pilhas.
     """
-    print("=== Exercício 10 - Calculadora Aritmética usando Pilhas ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 10 - LISTA 1")
+    print("="*70)
+    print("Calculadora Aritmética usando Pilhas")
+    print("="*70)
     
     # Casos de teste com expressões pós-fixas
     expressoes_teste = [

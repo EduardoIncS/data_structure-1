@@ -39,7 +39,12 @@ def _print_paths_recursive(p, tree, path):
 def exercicio_6():
     """Exercício 6: Imprimir todos os caminhos da raiz até as folhas."""
     
-    print("Exercício 6: Caminhos da Raiz até as Folhas\n")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 6 - LISTA 2")
+    print("="*70)
+    print("Caminhos da Raiz até as Folhas")
+    print("="*70)
+    print()
     
     # Criar árvore do exemplo
     #         1

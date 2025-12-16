@@ -6,7 +6,11 @@ def exercicio_6():
     enqueue(5), enqueue(3), dequeue(), enqueue(2), enqueue(8), dequeue(), dequeue(), enqueue(9),
     enqueue(1), dequeue(), enqueue(7), dequeue(), enqueue(6), dequeue(), enqueue(4), dequeue(), dequeue().
     """
-    print("=== Exercício 6 - Sequência de Operações de Fila ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 6 - LISTA 1")
+    print("="*70)
+    print("Sequência de Operações de Fila")
+    print("="*70)
     
     # Criando fila inicialmente vazia
     fila = ArrayQueue()

@@ -1,22 +1,25 @@
 # Estruturas de Dados 1 - Atividades Práticas
 
-Este repositório contém as implementações e exercícios práticos da disciplina de **Estruturas de Dados**, abordando desde estruturas lineares até estruturas hierárquicas.
+Este repositório contém as implementações e exercícios práticos da disciplina de **Estruturas de Dados**, abordando estruturas lineares, árvores binárias e árvores de busca balanceadas.
 
 ## 📚 Sobre o Projeto
 
-Atividade acadêmica que implementa e demonstra o uso de diversas estruturas de dados através de exercícios práticos organizados em listas de implementação. Cada questão está organizada em arquivos separados com implementações específicas e testes demonstrativos.
+Atividade acadêmica que implementa e demonstra o uso de diversas estruturas de dados através de exercícios práticos organizados em três listas de implementação. Cada questão está organizada em arquivos separados com implementações específicas e testes demonstrativos.
 
 ### 📋 Listas de Implementação
 
-- **Lista 1**: Estruturas lineares - Stack (Pilha), Queue (Fila), Deque (Fila Dupla) e estruturas encadeadas
-- **Lista 2**: Estruturas hierárquicas - Árvores Binárias e travessias
+- **Lista 1**: Estruturas Lineares - Stack (Pilha), Queue (Fila), Deque (Fila Dupla) e Listas Encadeadas
+- **Lista 2**: Árvores Binárias - LinkedBinaryTree, ArrayBinaryTree e Algoritmos de Travessia
+- **Lista 3**: Árvores de Busca Balanceadas - BST, AVL e Árvores Rubro-Negras
 
 ## 🚀 Como Executar
 
-### Executar todas as questões:
+### Executar lista completa:
 
 ```bash
-python main.py
+python main.py    # Executa todos os exercícios da Lista 1
+python main2.py   # Executa todos os exercícios da Lista 2
+python main3.py   # Executa todos os exercícios da Lista 3
 ```
 
 ### Executar uma questão específica:
@@ -25,8 +28,11 @@ python main.py
 # Lista 1 (Estruturas Lineares)
 python -m questions.question1_X  # onde X é o número da questão (2-20)
 
-# Lista 2 (Árvores)
-python -m questions.question2_X  # onde X é o número da questão
+# Lista 2 (Árvores Binárias)
+python -m questions.question2_X  # onde X é o número da questão (4-8)
+
+# Lista 3 (Árvores de Busca)
+python -m questions.question3_X  # onde X é o número da questão (4-7)
 ```
 
 ## 🏗️ Estruturas de Dados Implementadas
@@ -115,7 +121,7 @@ Implementação de deque (double-ended queue) usando array circular.
 **Exercício 19** - Remover duplicados em lista duplamente encadeada  
 **Exercício 20** - Implementar método reverse para lista duplamente encadeada
 
-### 🌳 Lista 2: Estruturas Hierárquicas
+### 🌳 Lista 2: Árvores Binárias
 
 #### **LinkedBinaryTree** (`linkedBinaryTree.py`)
 
@@ -158,10 +164,63 @@ Classe abstrata base para árvores binárias.
 **Exercício 7** - Encontrar e listar todos os ancestrais de um nó específico  
 **Exercício 8** - Converter árvore para árvore soma (substituir valores pela soma das subárvores)
 
+### 🔍 Lista 3: Árvores de Busca Balanceadas
+
+#### **TreeMap** (`treeMap.py`)
+
+Implementação de árvore de busca binária (BST) usando mapeamento de chave-valor.
+
+**Características:**
+
+- **Ordenação por chaves**
+- **Busca O(log n) em árvores balanceadas**
+- **Operações**: `__getitem__()`, `__setitem__()`, `__delitem__()`
+- **Métodos auxiliares**: `find_position()`, `find_min()`, `find_range()`
+
+#### **AVLTreeMap** (`avlTreeMap.py`)
+
+Implementação de árvore AVL (auto-balanceamento).
+
+**Características:**
+
+- **Balanceamento automático** após inserções e remoções
+- **Fator de balanceamento** mantido entre -1 e 1
+- **Rotações**: simples e duplas para rebalanceamento
+- **Altura armazenada** em cada nó para eficiência
+- **Garante O(log n)** para todas as operações
+
+#### **RedBlackTreeMap** (`redBlackTreeMap.py`)
+
+Implementação de árvore rubro-negra (Red-Black Tree).
+
+**Características:**
+
+- **Balanceamento por cores** (vermelho/preto)
+- **Propriedades mantidas**: raiz preta, filhos de nós vermelhos são pretos
+- **Caminho negro uniforme** da raiz até as folhas
+- **Recoloração e rotações** para manter propriedades
+- **Inserção e remoção O(log n)**
+
+#### **MapBase** e **MutableMapping**
+
+Classes base para implementação de mapas:
+
+- **MapBase**: Classe base com `_Item` para composição chave-valor
+- **MutableMapping**: Classe abstrata para mapas mutáveis com métodos concretos (`get()`, `pop()`, `clear()`, `keys()`, `values()`, `items()`)
+
+### 📝 Exercícios da Lista 3
+
+**Exercício 4** - Inserção sequencial em BST: inserir chaves [30, 40, 24, 58, 48, 26, 11, 13] e mostrar árvore após cada inserção  
+**Exercício 5** - Inserção em AVL: inserir chave 52 na árvore AVL da Figura 11.14b e mostrar rebalanceamento  
+**Exercício 6** - Remoção em AVL: remover chave 62 da árvore AVL da Figura 11.14b e mostrar rebalanceamento  
+**Exercício 7** - Inserção em Rubro-Negra: inserir sequência [5, 16, 22, 45, 2, 10, 18, 30, 50, 12, 1] e mostrar cores e estrutura
+
 ## 📁 Estrutura do Projeto
 
 ```
-├── main.py                    # Executor principal de todas as questões
+├── main.py                    # Executor da Lista 1 (Estruturas Lineares)
+├── main2.py                   # Executor da Lista 2 (Árvores Binárias)
+├── main3.py                   # Executor da Lista 3 (Árvores de Busca)
 ├── README.md                  # Este arquivo
 │
 ├── # Lista 1: Estruturas Lineares
@@ -174,16 +233,23 @@ Classe abstrata base para árvores binárias.
 ├── circularQueue.py           # Fila circular encadeada
 ├── doublyLinkedBase.py        # Base para listas duplamente encadeadas
 │
-├── # Lista 2: Árvores
+├── # Lista 2: Árvores Binárias
 ├── Tree.py                    # Classe abstrata base para árvores
 ├── binaryTree.py              # Classe abstrata para árvores binárias
 ├── linkedBinaryTree.py        # Árvore binária com nós encadeados
 ├── arrayBinaryTree.py         # Árvore binária com array
 │
+├── # Lista 3: Árvores de Busca
+├── mapBase.py                 # Classe base para mapas
+├── mutableMapping.py          # Classe abstrata para mapas mutáveis
+├── treeMap.py                 # Árvore de busca binária (BST)
+├── avlTreeMap.py              # Árvore AVL (auto-balanceamento)
+├── redBlackTreeMap.py         # Árvore Rubro-Negra
+│
 └── questions/                 # Pasta com todos os exercícios
     ├── __init__.py
     │
-    ├── # Lista 1: Estruturas Lineares
+    ├── # Lista 1: Estruturas Lineares (17 exercícios)
     ├── question1_2.py         # Operações de pilha
     ├── question1_3.py         # Função transfer entre pilhas
     ├── question1_4.py         # Remoção recursiva de pilha
@@ -203,12 +269,18 @@ Classe abstrata base para árvores binárias.
     ├── question1_19.py        # Remover duplicados em lista dupla
     ├── question1_20.py        # Método reverse para lista dupla
     │
-    └── # Lista 2: Árvores
-        ├── question2_4.py     # Verificação de árvores idênticas
-        ├── question2_5.py     # Verificação de árvore soma
-        ├── question2_6.py     # Caminhos da raiz até as folhas
-        ├── question2_7.py     # Encontrar ancestrais de um nó
-        └── question2_8.py     # Conversão para árvore soma
+    ├── # Lista 2: Árvores Binárias (5 exercícios)
+    ├── question2_4.py         # Verificação de árvores idênticas
+    ├── question2_5.py         # Verificação de árvore soma
+    ├── question2_6.py         # Caminhos da raiz até as folhas
+    ├── question2_7.py         # Encontrar ancestrais de um nó
+    ├── question2_8.py         # Conversão para árvore soma
+    │
+    └── # Lista 3: Árvores de Busca (4 exercícios)
+        ├── question3_4.py     # Inserção em BST
+        ├── question3_5.py     # Inserção em AVL
+        ├── question3_6.py     # Remoção em AVL
+        └── question3_7.py     # Inserção em Rubro-Negra
 ```
 
 ## 🎯 Conceitos Demonstrados
@@ -229,7 +301,7 @@ Classe abstrata base para árvores binárias.
 - **Remoção de duplicados** em listas duplamente encadeadas
 - **Modificação de estruturas** com métodos de inversão in-place
 
-### Lista 2: Árvores
+### Lista 2: Árvores Binárias
 
 - **Árvores binárias** com representação encadeada e por array
 - **Travessias de árvores**: preorder, inorder, postorder
@@ -241,6 +313,19 @@ Classe abstrata base para árvores binárias.
 - **Algoritmos de busca**: caminhos e ancestrais em árvores
 - **Manipulação de árvores**: transformação de valores baseada em subárvores
 - **Algoritmos recursivos** para processamento de árvores
+
+### Lista 3: Árvores de Busca Balanceadas
+
+- **Árvores de busca binária (BST)**: ordenação e busca eficiente
+- **Árvores AVL**: auto-balanceamento com fator de balanceamento
+- **Rotações**: simples (LL, RR) e duplas (LR, RL)
+- **Árvores Rubro-Negras**: balanceamento por cores
+- **Propriedades de balanceamento**: altura, fator e cores
+- **Inserção e remoção** com rebalanceamento automático
+- **Complexidade logarítmica** garantida em árvores balanceadas
+- **Mapeamento chave-valor** em estruturas de árvore
+- **Visualização de estruturas**: representação hierárquica e cores
+- **Comparação de desempenho** entre diferentes tipos de árvores
 
 ## 🛠️ Requisitos
 

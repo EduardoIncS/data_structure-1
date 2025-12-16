@@ -33,7 +33,12 @@ def _are_identical_recursive(p1, p2, tree1, tree2):
 
 def exercicio_4():
     """Exercício 4: Verificar se duas árvores binárias são idênticas."""
-    print("Exercício 4: Verificação de Árvores Binárias Idênticas\n")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 4 - LISTA 2")
+    print("="*70)
+    print("Verificação de Árvores Binárias Idênticas")
+    print("="*70)
+    print()
     
     # Criar primeira árvore
     #       1

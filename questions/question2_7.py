@@ -46,7 +46,12 @@ def _find_ancestors_recursive(p, tree, target, ancestors):
 def exercicio_7():
     """Exercício 7: Encontrar todos os ancestrais de um nó específico."""
     
-    print("Exercício 7: Encontrar Ancestrais de um Nó\n")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 7 - LISTA 2")
+    print("="*70)
+    print("Encontrar Ancestrais de um Nó")
+    print("="*70)
+    print()
     
     # Criar árvore do exemplo
     #         1

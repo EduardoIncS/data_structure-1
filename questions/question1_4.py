@@ -13,7 +13,11 @@ def exercicio_4():
     """
     Fornece um método recursivo para remover todos os elementos de uma pilha.
     """
-    print("=== Exercício 4 - Método Recursivo para Remover Todos os Elementos ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 4 - LISTA 1")
+    print("="*70)
+    print("Método Recursivo para Remover Todos os Elementos")
+    print("="*70)
     
     # Criando e populando uma pilha
     pilha = ArrayStack()

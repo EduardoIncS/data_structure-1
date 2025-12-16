@@ -119,19 +119,19 @@ class LinkedBinaryTree(BinaryTree):
         if not type(self) is type(t1) is type(t2):
             raise TypeError("Tree types must match")
         self._size += len(t1) + len(t2)
-        if not t1.is_empty():
+        if len(t1) > 0:
             t1._root._parent = node
             node._left = t1._root
             t1._root = None
             t1._size = 0
-        if not t2.is_empty():
+        if len(t2) > 0:
             t2._root._parent = node
             node._right = t2._root
             t2._root = None
             t2._size = 0
     
     def preorder(self):
-        if not self.is_empty():
+        if len(self) > 0:
             for p in self._subtree_preorder(self.root()):
                 yield p
     
@@ -142,7 +142,7 @@ class LinkedBinaryTree(BinaryTree):
                 yield other
     
     def postorder(self):
-        if not self.is_empty():
+        if len(self) > 0:
             for p in self._subtree_postorder(self.root()):
                 yield p
     
@@ -153,7 +153,7 @@ class LinkedBinaryTree(BinaryTree):
         yield p
     
     def inorder(self):
-        if not self.is_empty():
+        if len(self) > 0:
             for p in self._subtree_inorder(self.root()):
                 yield p
     

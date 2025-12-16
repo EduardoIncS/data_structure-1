@@ -86,7 +86,11 @@ def lista_dupla_para_array(lista):
     return elementos
 
 def exercicio_19():
-    print("Exercício 19: Excluir elementos duplicados em lista duplamente encadeada")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 19 - LISTA 1")
+    print("="*70)
+    print("Excluir elementos duplicados em lista duplamente encadeada")
+    print("="*70)
     
     # Teste 1: Lista com vários duplicados
     print("Teste 1: Lista [1, 2, 3, 2, 4, 1, 5, 3, 6]")

@@ -72,7 +72,11 @@ def imprimir_lista_circular(tail, max_rotacoes=2):
     return " -> ".join(elementos) + " -> ..."
 
 def exercicio_16():
-    print("Exercício 16: Contar nós em lista circularmente encadeada")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 16 - LISTA 1")
+    print("="*70)
+    print("Contar nós em lista circularmente encadeada")
+    print("="*70)
     
     # Teste 1: Lista com vários elementos
     lista1 = criar_lista_circular([1, 2, 3, 4, 5])

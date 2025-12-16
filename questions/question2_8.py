@@ -66,7 +66,12 @@ def _collect_inorder(p, tree, elements):
 def exercicio_8():
     """Exercício 8: Converter árvore para árvore soma."""
     
-    print("Exercício 8: Conversão para Árvore Soma\n")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 8 - LISTA 2")
+    print("="*70)
+    print("Conversão para Árvore Soma")
+    print("="*70)
+    print()
     
     # Criar árvore do exemplo
     #         1

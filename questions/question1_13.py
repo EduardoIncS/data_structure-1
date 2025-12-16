@@ -45,7 +45,11 @@ def exercicio_13():
     Implementa um algoritmo para encontrar o penúltimo nó em uma lista encadeada simples.
     Utiliza a estrutura de nós do LinkedStack para manter consistência com o projeto.
     """
-    print("=== Exercício 13 - Encontrar Penúltimo Nó em Lista Encadeada ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 13 - LISTA 1")
+    print("="*70)
+    print("Encontrar Penúltimo Nó em Lista Encadeada")
+    print("="*70)
     
     casos_teste = [
         [],

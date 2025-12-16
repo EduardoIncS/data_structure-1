@@ -1,3 +1,8 @@
+"""
+Main da Lista de Implementação 1
+Estruturas de Dados Lineares: Pilhas, Filas, Deques e Listas Encadeadas
+"""
+
 from questions.question1_2 import exercicio_2 as exercicio_1_2
 from questions.question1_3 import exercicio_3 as exercicio_1_3
 from questions.question1_4 import exercicio_4 as exercicio_1_4
@@ -16,14 +21,14 @@ from questions.question1_17 import exercicio_17 as exercicio_1_17
 from questions.question1_18 import exercicio_18 as exercicio_1_18
 from questions.question1_19 import exercicio_19 as exercicio_1_19
 from questions.question1_20 import exercicio_20 as exercicio_1_20
-from questions.question2_4 import exercicio_4 as exercicio_2_4
-from questions.question2_5 import exercicio_5 as exercicio_2_5
-from questions.question2_6 import exercicio_6 as exercicio_2_6
-from questions.question2_7 import exercicio_7 as exercicio_2_7
-from questions.question2_8 import exercicio_8 as exercicio_2_8
+
 
 if __name__ == "__main__":
-    print("\n" + "LISTA DE IMPLEMENTAÇÃO 1" + "\n")
+    print("\n" + "="*70)
+    print("LISTA DE IMPLEMENTAÇÃO 1")
+    print("Estruturas de Dados Lineares")
+    print("="*70 + "\n")
+    
     exercicio_1_2()
     print("\n" + "="*50 + "\n")
     exercicio_1_3()
@@ -59,15 +64,7 @@ if __name__ == "__main__":
     exercicio_1_19()
     print("\n" + "="*50 + "\n")
     exercicio_1_20()
-    print("\n" + "="*50 + "\n")
-    print("LISTA DE IMPLEMENTAÇÃO 2" + "\n")
-    exercicio_2_4()
-    print("\n" + "="*50 + "\n")
-    exercicio_2_5()
-    print("\n" + "="*50 + "\n")
-    exercicio_2_6()
-    print("\n" + "="*50 + "\n")
-    exercicio_2_7()
-    print("\n" + "="*50 + "\n")
-    exercicio_2_8()
-    print("\n" + "="*50 + "\n")
+    
+    print("\n" + "="*70)
+    print("FIM DA LISTA 1")
+    print("="*70 + "\n")

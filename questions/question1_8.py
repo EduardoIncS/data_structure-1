@@ -23,7 +23,11 @@ def exercicio_8():
     Escreve um programa para verificar se em uma string contendo uma expressão aritmética,
     os parênteses de abertura e fechamento estão bem formados ou não.
     """
-    print("=== Exercício 8 - Verificação de Parênteses Bem Formados ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 8 - LISTA 1")
+    print("="*70)
+    print("Verificação de Parênteses Bem Formados")
+    print("="*70)
     
     # Casos de teste
     expressoes_teste = [

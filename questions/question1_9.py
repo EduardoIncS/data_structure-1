@@ -59,7 +59,11 @@ def exercicio_9():
     Escreva um programa para converter uma expressão aritmética na forma prefixa para
     formas infixas e pós-fixadas equivalentes.
     """
-    print("=== Exercício 9 - Conversão de Expressão Prefixa ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 9 - LISTA 1")
+    print("="*70)
+    print("Conversão de Expressão Prefixa")
+    print("="*70)
     
     # Casos de teste com expressões prefixas
     expressoes_prefixas = [

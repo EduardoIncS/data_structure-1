@@ -107,7 +107,11 @@ def verificar_integridade_lista(lista):
     return True
 
 def exercicio_20():
-    print("Exercício 20: Método reverse em lista duplamente encadeada")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 20 - LISTA 1")
+    print("="*70)
+    print("Método reverse em lista duplamente encadeada")
+    print("="*70)
     
     # Teste 1: Lista com vários elementos
     print("Teste 1: Lista [1, 2, 3, 4, 5]")

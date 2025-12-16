@@ -81,7 +81,11 @@ def lista_para_array(head):
     return elementos
 
 def exercicio_18():
-    print("Exercício 18: Separar números positivos e negativos")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 18 - LISTA 1")
+    print("="*70)
+    print("Separar números positivos e negativos")
+    print("="*70)
     
     # Teste 1: Lista mista com positivos e negativos
     print("Teste 1: Lista [-5, 3, -2, 8, -1, 7, -9, 4]")

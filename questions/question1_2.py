@@ -6,7 +6,11 @@ def exercicio_2():
     push(5), push(3), pop(), push(2), push(8), pop(), pop(), push(9), push(1), pop(), push(7),
     push(6), pop(), pop(), push(4), pop(), pop().
     """
-    print("=== Exercício 2 - Sequência de Operações de Pilha ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 2 - LISTA 1")
+    print("="*70)
+    print("Sequência de Operações de Pilha")
+    print("="*70)
     
     # Criando pilha inicialmente vazia
     pilha = ArrayStack()

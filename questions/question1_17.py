@@ -61,7 +61,11 @@ def lista_para_array(head):
     return elementos
 
 def exercicio_17():
-    print("Exercício 17: Reversão recursiva de lista encadeada")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 17 - LISTA 1")
+    print("="*70)
+    print("Reversão recursiva de lista encadeada")
+    print("="*70)
     
     # Teste 1: Lista com vários elementos
     print("Teste 1: Lista [1, 2, 3, 4, 5]")

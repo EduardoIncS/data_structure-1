@@ -34,7 +34,11 @@ def exercicio_11():
     palíndromo (ou seja, se os caracteres são lidos da mesma forma, tanto para a frente quanto
     para trás).
     """
-    print("=== Exercício 11 - Teste de Palíndromo com Pilha e Fila ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 11 - LISTA 1")
+    print("="*70)
+    print("Teste de Palíndromo com Pilha e Fila")
+    print("="*70)
     
     # Casos de teste
     strings_teste = [

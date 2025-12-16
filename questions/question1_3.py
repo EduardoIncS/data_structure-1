@@ -15,7 +15,11 @@ def exercicio_3():
     Implementa e testa a função transfer(S, T) que transfere todos os elementos
     da pilha S para a pilha T.
     """
-    print("=== Exercício 3 - Função Transfer(S, T) ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 3 - LISTA 1")
+    print("="*70)
+    print("Função Transfer(S, T)")
+    print("="*70)
     
     # Criando duas pilhas
     S = ArrayStack()

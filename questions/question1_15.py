@@ -44,7 +44,11 @@ def imprimir_lista(head):
     return " -> ".join(elementos)
 
 def exercicio_15():
-    print("Exercício 15: Contar nós em lista encadeada (recursivo)")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 15 - LISTA 1")
+    print("="*70)
+    print("Contar nós em lista encadeada (recursivo)")
+    print("="*70)
     
     # Teste 1: Lista com vários elementos
     lista1 = criar_lista_encadeada([1, 2, 3, 4, 5])

@@ -54,7 +54,12 @@ def _is_sum_tree_recursive(p, tree):
 def exercicio_5():
     """Exercício 5: Verificar se uma árvore binária é uma árvore soma."""
     
-    print("Exercício 5: Verificação de Árvore Soma\n")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 5 - LISTA 2")
+    print("="*70)
+    print("Verificação de Árvore Soma")
+    print("="*70)
+    print()
     
     # Criar árvore soma do exemplo
     #        44

@@ -22,7 +22,11 @@ def exercicio_5():
     """
     Implementa e testa uma função que inverte uma lista usando uma pilha.
     """
-    print("=== Exercício 5 - Inverter Lista usando Pilha ===")
+    print("\n" + "="*70)
+    print("EXERCÍCIO 5 - LISTA 1")
+    print("="*70)
+    print("Inverter Lista usando Pilha")
+    print("="*70)
     
     # Testando com diferentes tipos de listas
     listas_teste = [
